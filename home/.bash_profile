@@ -9,6 +9,16 @@ export PATH=$PATH:~/.gem/ruby/1.8/bin:/opt/nginx/sbin
 # Path to the bash it configuration
 export BASH_IT=$HOME/.bash_it
 
+export JAVA_HOME=$(/usr/libexec/java_home)
+export PATH=$HOME/development/gsutil:$PATH
+export PATH=$HOME/development/bdutil-1.2.0:$PATH
+export PATH=$HOME/development/appengine-java-sdk-1.9.18/bin:$PATH
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/Users/Sebastian.Just/development/google-cloud-sdk/path.bash.inc'
+# The next line enables bash completion for gcloud.
+source '/Users/Sebastian.Just/development/google-cloud-sdk/completion.bash.inc'
+
 # Lock and Load a custom theme file
 # location /.bash_it/themes/
 export BASH_IT_THEME='bobby'
