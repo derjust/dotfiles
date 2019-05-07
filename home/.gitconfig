@@ -1,9 +1,8 @@
 [user]
-	name = Sebastian Just
-    email = Sebastian.Just@sungard.com
-[github]
     user = derjust
     email = zeeman@zeeman.de
+[includeIf "gitdir:~/work/"]
+    path = ~/development/work/.gitconfig
 [color]
     diff = auto
     status = auto
